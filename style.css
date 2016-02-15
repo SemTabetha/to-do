@@ -1,0 +1,100 @@
+body {
+	background-color: #eceff0;
+	background-image: url("images/tree.png");
+	background-repeat: no-repeat;
+	background-position: relative;
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+.header {
+	margin-bottom: 0;
+	text-align: center;
+	background-color: #527A02;
+	box-shadow: 10px 10px 5px #888888;
+	border-bottom: solid 1px grey;
+	font-size: 25px;
+	color: #fff;
+}
+.wrapper {
+	margin: auto;
+	width: 100%;
+	max-width: 900px;
+	background-color: white;
+	box-shadow: 10px 10px 5px #888888;
+}
+.list {
+	margin: auto;
+	width: 700px;
+	background-color: #6F9C00;
+}
+table {
+	margin: 20px;
+	padding-top: 15px;
+	list-style-type: none;
+	color: white;
+}
+td {
+	padding-top: 10px;
+	padding-bottom: 5px;
+ 	border-bottom: dashed 2px white;
+ 	font-weight: normal;
+}
+td.first{
+	width: 105px;
+}
+span{
+	display: block;
+	width: 500px;
+}
+a.real{
+	color: rgba(192,192,192,0.3);
+}
+a:hover.real{
+ color: white;
+}
+.item-add .input {
+	margin: 20px;
+	padding-bottom: 15px;
+	border: 0;
+	border-bottom: 2px dashed white;
+	background-color: #6F9C00;
+	color: white;
+	font-size: 22px;
+}
+.input {
+	width: 94%;
+}
+.input:focus {
+	outline: none;
+}
+.submit {
+	margin: 20px;
+	background-color: #FFF;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	width: 94%;
+	box-shadow: 3px 3px 3px #888888;
+	font-size: 22px;
+}
+td.del {
+	width: 700px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+ 	border-bottom: dashed 2px white;
+ 	font-weight: normal;
+ 	text-align: center;
+}
+a.del{
+	color: black;
+	text-decoration: none;
+	background-color: #FFF;
+	padding: 5px 10px;
+	border: 1px solid #ddd;
+	box-shadow: 3px 3px 3px #888888;
+	font-size: 15px;
+}
+
+div.goback{
+	text-align: center;
+}
